@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h2>JavaScript can change HTML content:</h2>
+    <p>JavaScript has a method called getElementById that "finds" an HTML element. "onclick" is an event, which occurs
+        when a user clicks on something. Here onclick causes the content of this HTML element (i.e. the innerhtml) to
+        change to the specified text.</p>
+    
+    <p id="demo1">Click the button to change me!</p>
+
+    <button type="button" onclick='document.getElementById("demo1").innerHTML = "Now I am Changed!"'>Click Me!</button>
+
+    <p>You try it. In the html document <strong>01ChangeContent.html</strong>, add code to create a button that says
+        "Reset" that changes the highlighted text back to "Click the button to change me!"</p>
+
+    <!-- 1. Copy the button tag above to make a new button -->
+    <!-- 2. Change "Click Me!" to "Reset" -->
+    <!-- 3. Change "Now I am Changed!" to "Click the button to change me!" -->
+
+    <br><br>
+    <a href="02ChangeAttributes.html">Next</a>
+</body>
+
+</html>

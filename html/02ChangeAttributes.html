@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <a href="../index.html">Back to the Main Page</a>
+    <h2>JavaScript can change HTML Attributes:</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+
+<p><strong>Example 1:</strong>  In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='../images/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="../images/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='../images/pic_bulboff.gif'">Turn off the light</button>
+<br><br>
+    
+<p><strong>Example 2: </strong>Add a button in the html document <strong>02ChangeAttributes.html</strong> that will change the attribute of 'myImage' so it has a width of 50px.  Click the button to see what happens.</p>
+
+<!-- 1. Copy the <button> tag above, change .src to .style to change the style attribute-->
+<!-- 2. Change '../images/pic_bulboff.gif'" to 'width: 50px'"-->
+<!-- 3. Change Turn off the light to Resize -->
+<!-- 4. Click the new Resize button to see what happens.-->
+    
+    <br><br>
+
+    <br><br>
+    <a href="01ChangeContent.html">Previous</a>
+    <a href="03ShowHide.html">Next</a>
+</body>
+
+</html>
